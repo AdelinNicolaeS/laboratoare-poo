@@ -1,4 +1,5 @@
 # Laboratories
+Name: Stanca Adelin-Nicolae
 
 This repository contains (and is updated each university year):
 

@@ -1,9 +1,9 @@
 package task2;
 
 public class Course {
-    String title;
-    String description;
-    Student[] students;
+    private String title;
+    private String description;
+    private Student[] students;
 
     public String getTitle() {
         return title;
