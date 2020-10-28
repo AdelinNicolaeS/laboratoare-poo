@@ -18,7 +18,7 @@ public class Area {
     }
 
     public void printToString() {
-        for (CandyBox box : bagOfCandy.bag) {
+        for (CandyBox box : bagOfCandy.getBag()) {
             System.out.println(box.toString());
         }
     }
@@ -36,8 +36,8 @@ public class Area {
             }
         }
         */
-        for(CandyBox box : bagOfCandy.bag) {
-            box.Print();
+        for(CandyBox box : bagOfCandy.getBag()) {
+            box.print();
         }
     }
 }

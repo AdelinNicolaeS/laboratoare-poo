@@ -20,11 +20,11 @@ public class Baravelli extends CandyBox {
         return super.toString() + " has volume " + getVolume();
     }
 
-    public void PrintBaravelliDim () {
+    public void printBaravelliDim () {
         System.out.println("Dimensiunile sunt radius " + radius + " si height " + height);
     }
 
-    public void Print() {
+    public void print() {
         System.out.println("Dimensiunile sunt radius " + radius + " si height " + height);
     }
 }

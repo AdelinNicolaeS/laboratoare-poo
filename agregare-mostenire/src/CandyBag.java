@@ -1,5 +1,17 @@
 import java.util.ArrayList;
 
 public class CandyBag {
-    protected ArrayList<CandyBox> bag;
+    private ArrayList<CandyBox> bag;
+
+    public CandyBag() {
+        bag = new ArrayList<CandyBox>();
+    }
+
+    public ArrayList<CandyBox> getBag() {
+        return bag;
+    }
+
+    public void setBag(ArrayList<CandyBox> bag) {
+        this.bag = bag;
+    }
 }

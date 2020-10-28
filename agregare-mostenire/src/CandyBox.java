@@ -28,7 +28,7 @@ public class CandyBox {
         return Objects.equals(flavor, candyBox.flavor) &&
                 Objects.equals(origin, candyBox.origin);
     }
-    public void Print() {
+    public void print() {
         // adaugat pentru a evita folosirea instanceof
     }
 

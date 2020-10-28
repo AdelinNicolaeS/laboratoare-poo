@@ -23,11 +23,11 @@ public class Lindt extends CandyBox {
         return super.toString() + " has volume " + getVolume();
     }
 
-    public void PrintLindtDim () {
+    public void printLindtDim () {
         System.out.println("Dimensiunile sunt length " + length + ", width " + width + " si heigth " + height);
     }
 
-    public void Print() {
+    public void print() {
         System.out.println("Dimensiunile sunt length " + length + ", width " + width + " si heigth " + height);
     }
 }

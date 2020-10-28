@@ -19,13 +19,10 @@ public class Test {
         System.out.println(l1.equals(l2)); // afiseaza true deoarece compara numai flavor si origin
 
         CandyBag candyBag = new CandyBag();
-        ArrayList<CandyBox> list = new ArrayList<CandyBox>();
-        list.add(l);
-        list.add(b);
-        list.add(c);
-        list.add(l1);
-        candyBag.bag = list;
-        candyBag.bag.add(l2);
+        candyBag.getBag().add(l);
+        candyBag.getBag().add(b);
+        candyBag.getBag().add(c);
+        candyBag.getBag().add(l1);
 
         Area area = new Area(candyBag, 321, "Bulevardul Tenerife");
         area.getBirthdayCard();

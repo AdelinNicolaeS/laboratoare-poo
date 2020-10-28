@@ -18,11 +18,11 @@ public class ChocAmor extends CandyBox {
         return super.toString() + " has volume " + getVolume();
     }
 
-    public void PrintChocAmorDim () {
+    public void printChocAmorDim () {
         System.out.println("Dimensiunea sunt length " + length);
     }
 
-    public void Print () {
+    public void print () {
         System.out.println("Dimensiunea sunt length " + length);
     }
 
