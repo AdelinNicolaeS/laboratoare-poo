@@ -1,6 +1,6 @@
 package com.poo.labvisitor.task1;
 
-import com.poo.labvisitor.task1.document.TextSegment;
+import com.poo.labvisitor.task1.document.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,12 +21,17 @@ public class Test {
         // TODO __AFTER__ the main functionality is working correctly
         // See what happens if the TextSegment's accept method is not abstract and the subclasses do not override it
         //  - testing this needs changes in the visitor interface as well
+
+        // daca metoda accept nu este abstracta si subclasele nu o suprascriu,
+        // va trebui sa facem o metoda noua visit pentru tipul generic si va
+        // trebui sa tratam pe cazuri in interiorul acestei metode fiecare tip
+        // de text
     }
     public static List<TextSegment> getTextSegments() {
         List<TextSegment> textSegments = new ArrayList<>();
 
         // TODO uncomment this after implementing all the TextSegment subclasses
-        /*textSegments.add(new PlainTextSegment("Mecanismul din spatele pattern-ului "));
+        textSegments.add(new PlainTextSegment("Mecanismul din spatele pattern-ului "));
         textSegments.add(new ItalicTextSegment("Visitor"));
         textSegments.add(new PlainTextSegment(" poartă numele de "));
         textSegments.add(new BoldTextSegment("double-dispatch"));
@@ -41,7 +46,7 @@ public class Test {
         textSegments.add(new PlainTextSegment(", ce cuprinde mai multe "));
         textSegments.add(new ItalicTextSegment("obiecte de tipuri diferite"));
         textSegments.add(new PlainTextSegment(".\n"));
-        */
+
         return textSegments;
     }
 }

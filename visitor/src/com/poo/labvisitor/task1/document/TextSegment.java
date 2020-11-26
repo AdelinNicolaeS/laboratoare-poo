@@ -14,5 +14,7 @@ public abstract class TextSegment {
         return content;
     }
 
-    // TODO add method for applying the visitor
+     public abstract void accept(DocumentVisitor documentVisitor);
+
+
 }
