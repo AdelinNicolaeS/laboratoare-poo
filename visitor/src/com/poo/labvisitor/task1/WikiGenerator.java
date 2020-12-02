@@ -1,5 +1,7 @@
 package com.poo.labvisitor.task1;
 
+import com.poo.labvisitor.task1.document.DokuWikiVisitor;
+import com.poo.labvisitor.task1.document.MarkdownVisitor;
 import com.poo.labvisitor.task1.document.TextSegment;
 
 import java.util.List;
@@ -17,11 +19,19 @@ public class WikiGenerator {
 
     public StringBuilder getDokuWikiDocument() {
         // TODO apply dokuwiki visitor on the text segments
-        return null;
+        DokuWikiVisitor dokuWikiVisitor = new DokuWikiVisitor();
+        for(TextSegment textSegment : textSegments) {
+            textSegment.accept(dokuWikiVisitor);
+        }
+        return dokuWikiVisitor.getDocument();
     }
 
     public StringBuilder getMarkdownDocument() {
         // TODO apply Markdown visitor on the text segments
-        return null;
+        MarkdownVisitor markdownVisitor = new MarkdownVisitor();
+        for(TextSegment textSegment : textSegments) {
+            textSegment.accept(markdownVisitor);
+        }
+        return markdownVisitor.getDocument();
     }
 }
