@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="18e33d33-80dd-44e2-a84f-099e8d82e1f7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1lNWxo5JUvEy44ozvvwPNHeTWgd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="18e33d33-80dd-44e2-a84f-099e8d82e1f7" name="Default Changelist" comment="" />
+      <created>1607438288205</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607438288205</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="776" y="269" width="424" height="567" key="FileChooserDialogImpl" timestamp="1607438343678">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="776" y="269" width="424" height="567" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1607438343678" />
+    <state x="579" y="299" width="819" height="507" key="NewModule_or_Project.wizard" timestamp="1607438363189">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="579" y="299" width="819" height="507" key="NewModule_or_Project.wizard/67.27.1853.1053@67.27.1853.1053" timestamp="1607438363189" />
+  </component>
+</project>
