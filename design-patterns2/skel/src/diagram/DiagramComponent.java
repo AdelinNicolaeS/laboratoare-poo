@@ -64,4 +64,12 @@ public class DiagramComponent {
     public void removeConnection(String componentId) {
         connectedComponents.remove(componentId);
     }
+
+    public List<String> getConnectedComponents() {
+        return connectedComponents;
+    }
+
+    public void setConnectedComponents(List<String> connectedComponents) {
+        this.connectedComponents = connectedComponents;
+    }
 }
