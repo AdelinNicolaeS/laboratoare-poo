@@ -23,6 +23,14 @@ public class DiagramCanvas {
         return components.get(id);
     }
 
+    public List<DiagramComponent> getComponents() {
+        return components;
+    }
+
+    public void setComponents(List<DiagramComponent> components) {
+        this.components = components;
+    }
+
     public void show() {
         System.out.println("Diagram:");
         components.forEach(System.out::println);
